@@ -2,37 +2,324 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sid-container {
+  display: flex;
+  background-color: aquamarine;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  display: flex;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
+  width: 100%;
+
+}
+
+.sidebar {
+  background: #4d58ee;
+  color: #fff;
+  height: auto;
+  width: 20%;
+  transition: all 0.5s;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+.text-deactron {
+  text-decoration: none;
+}
+
+.redius {
+  border-radius: 50%;
+}
+
+.nav-clr {
+  background: #4d58ee;
+  color: #ccc;
+}
+
+.base-container {
+  height: 100vh;
+  margin: 1vh;
+  display: flex;
+
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 10px;
+}
+
+.side-bar {
+  border: 1px solid red;
+  height: 100vh;
+  width: 20%;
+  background-color: blue;
+}
+
+.main-content {
+  background-color: red;
+  height: 100vh;
+  width: 80%;
+}
+
+.bar {
+  height: 100vh;
+}
+
+.nav-pills li a {
+  background-color: blue;
+}
+
+
+footer {
+
+  padding: 17px;
+  font-size: larger;
+  font-weight: bolder;
+  width: 100%;
+  background: #4d58ee;
+}
+
+.childred {
+
+  height: 100vh;
+  margin: 1vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.student-c {
+  margin: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+
+}
+
+.water-card {
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 250px;
+  height: 500px;
+
+
+}
+
+.image {
+  width: 225px;
+  height: 225px;
+  border: 1px solid blue;
+}
+
+
+.teacher-c {
+  margin: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  height: 90%;
+}
+
+.teacher-card {
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 250px;
+  height: 500px;
+}
+
+.detail-card {
+  background-color: rgb(147, 147, 231);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.detail-continar {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-detail {
+  border-radius: 10px;
+  color: brown;
+  background-color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  background-color: rgb(224, 221, 16);
+  color: #ff4e4e;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.add-container {
+  display: block;
+  width: 95%;
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+.box-model {
+  width: 95%;
+}
+
+.box-model ul {
+  position: relative;
+  background-color: #ccc;
+}
+
+.box-model ul li {
+  padding: 10px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+  transition: transform 0.5%;
+}
+
+.box-model ul li:hover {
+  transform: scale(1.1);
+  z-index: 100;
+  background: #25bcff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+
+}
+
+.box-model ul li input {
+  width: 100%;
+  height: 30px;
+
+}
+
+.al-center {
+  background-color: gold;
+  align-items: center;
+}
+
+.school {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.al-center h1 {
+  font-size: 50px;
+  color: darkgreen;
+  font-weight: 500;
+}
+
+#school-img {
+  width: 40%;
+  height: 40%;
+  border: 2px solid red;
+}
+
+.school-btn {
+  color: #fff;
+  background-color: blueviolet;
+}
+
+.school-btn:hover {
+  background-color: chartreuse;
+}
+
+.btn-group {
+  gap: 3px;
+}
+
+.button {
+  border-radius: 10px;
+  background-color: forestgreen;
+  color: #fff;
+}
+
+.button-edit:hover {
+  background-color: rgb(226, 241, 11);
+  color: black;
+}
+
+.button-view:hover {
+  background-color: indigo;
+}
+
+.button-delete:hover {
+  background-color: maroon;
+}
+
+.edit-button {
+  background-color: chartreuse;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.image-st {
+  width: 250px;
+  height: 250px;
+}
+
+.st-column {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#teacher-img {
+  width: 350px;
+  height: 350;
+}
+
+#teacher-img {
+  width: 350px;
+  height: 350;
 }
